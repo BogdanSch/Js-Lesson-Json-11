@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "category": "Детективи",
+    "price": "$13.99",
+    "stocked": true,
+    "name": "Десять негритят",
+    "author": "Агата Крісті",
+    "imageCover": "https://content2.rozetka.com.ua/goods/images/big/383139965.jpg",
+    "count": 1
+  },
+  {
+    "id": 2,
+    "category": "Детективи",
+    "price": "$15.99",
+    "stocked": true,
+    "name": "Вбивство в Східному експресі",
+    "author": "Агата Крісті",
+    "imageCover": "https://content2.rozetka.com.ua/goods/images/big/359680719.jpg",
+    "count": 1
+  },
+  {
+    "id": 3,
+    "category": "Детективи",
+    "price": "$19.99",
+    "stocked": false,
+    "name": "Пригоди Шерлока Холмса",
+    "author": "Артур Конан Дойл",
+    "imageCover": "https://content2.rozetka.com.ua/goods/images/big/149901374.jpg",
+    "count": 1
+  },
+  {
+    "id": 4,
+    "category": "Фантастика",
+    "price": "$29.99",
+    "stocked": true,
+    "name": "Володар перснів. Братство персня.",
+    "author": "Толкін",
+    "imageCover": "https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/i/m/img_70506_1.jpg",
+    "count": 1
+  },
+  {
+    "id": 5,
+    "category": "Фантастика",
+    "price": "$39.99",
+    "stocked": false,
+    "name": "Володар перснів. Повернення короля",
+    "author": "Толкін",
+    "imageCover": "https://cdn1.ozone.ru/multimedia/1014306714.jpg",
+    "count": 1
+  },
+  {
+    "id": 6,
+    "category": "Фантастика",
+    "price": "$30.99",
+    "stocked": true,
+    "name": "Гаррі Поттер і таємна кімната",
+    "author": "Джоан Роулінг",
+    "imageCover": "https://content1.rozetka.com.ua/goods/images/big/10751057.jpg",
+    "count": 1
+  },
+  {
+    "id": 7,
+    "category": "Фантастика",
+    "price": "$32.99",
+    "stocked": true,
+    "name": "Гаррі Поттер і в'язень Азкабану",
+    "author": "Джоан Роулінг",
+    "imageCover": "https://content2.rozetka.com.ua/goods/images/big/10750923.jpg",
+    "count": 1
+  }
+]
