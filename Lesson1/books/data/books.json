@@ -4,17 +4,17 @@
     "category": "Детективи",
     "price": "$13.99",
     "stocked": true,
-    "name": "Десять негритят",
+    "name": "Десять негренят",
     "author": "Агата Крісті",
     "imageCover": "https://content2.rozetka.com.ua/goods/images/big/383139965.jpg",
-    "count": 1
+    "count": 4
   },
   {
     "id": 2,
     "category": "Детективи",
     "price": "$15.99",
     "stocked": true,
-    "name": "Вбивство в Східному експресі",
+    "name": "Вбивство у Східному експресі",
     "author": "Агата Крісті",
     "imageCover": "https://content2.rozetka.com.ua/goods/images/big/359680719.jpg",
     "count": 1
@@ -46,7 +46,7 @@
     "stocked": false,
     "name": "Володар перснів. Повернення короля",
     "author": "Толкін",
-    "imageCover": "https://cdn1.ozone.ru/multimedia/1014306714.jpg",
+    "imageCover": "https://content1.rozetka.com.ua/goods/images/big/349455140.jpg",
     "count": 1
   },
   {

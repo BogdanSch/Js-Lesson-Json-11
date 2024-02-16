@@ -24,6 +24,7 @@ function createBooks(books) {
   for (let i = 0; i < books.length; i++) {
     str += `<div class="books__list-item card">`;
     str += `<div class="image"><img src="${books[i].imageCover}" /></div><div class="card-body">`;
+    str += `<span>${books[i].category}</span>`;
     str += `<h2>${books[i].name}</h2>`;
     str += `<p>${books[i].author}</p>`;
     str += `<span>${books[i].price}</span>`;
