@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="file" id="files" name="files[]" multiple />
+    <output id="list"></output>
+
+    <script>
+        function handleFileSelect(event) {
+            const files = event.target.files;
+            const output = [];
+
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+                output.push(`
+                    <li>
+                        <strong>File Name:</strong> ${file.name}<br>
+                        <strong>File Type:</strong> ${file.type}<br>
+                        <strong>File Size:</strong> ${file.size} bytes<br>
+                        <strong>Last Modified:</strong> ${file.lastModifiedDate.toLocaleDateString()}
+                    </li>
+                `);
+            }
+            document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
+        }
+
+        document.getElementById('files').addEventListener('change', handleFileSelect, false);
+    </script>
+</body>
+
+</html>

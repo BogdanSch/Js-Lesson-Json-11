@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="file" id="file-input" />
+    <h3>Contents of the file:</h3>
+    <pre id="file-content"></pre>
+    <script>
+        function readSingleFile(e) {
+            let file = e.target.files[0];
+            if (!file) {
+                return;
+            }
+
+            let reader = new FileReader();
+            reader.onload = function (e) {
+                let contents = e.target.result;
+                displayContents(contents);
+            };
+            reader.readAsText(file);
+        }
+
+        function displayContents(contents) {
+            let element = document.getElementById('file-content');
+            element.innerHTML = contents;
+        }
+
+        document.getElementById('file-input').addEventListener('change', readSingleFile, false);
+    </script>
+</body>
+
+</html>

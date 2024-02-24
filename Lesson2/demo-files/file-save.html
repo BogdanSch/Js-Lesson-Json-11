@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="download('Текст', 'filename.txt', 'text/plain')">Создать файл</button>
+    <a href="" id="a">Сохранить файл</a>
+
+    <script>
+        function download(text, name, type) {
+            let a = document.getElementById("a");
+            let file = new Blob([text], { type: type });
+            a.href = URL.createObjectURL(file);
+            a.download = name;
+        }
+    </script>
+</body>
+
+</html>
